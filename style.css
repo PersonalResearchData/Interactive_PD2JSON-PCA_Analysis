@@ -1,0 +1,75 @@
+body { 
+    font-family: 'Inter', 'Noto Sans JP', sans-serif; 
+    background-color: #f8f9fa;
+}
+
+/* --- Replicated UI/UX classes (for reference only with CDN setup) --- */
+
+.container { 
+    /* @apply max-w-6xl mx-auto p-4 md:p-8; */
+}
+
+.header { 
+    /* @apply text-center mb-8; */
+}
+.header h1 { 
+    /* @apply text-3xl md:text-4xl font-bold text-gray-800 mb-2; */
+}
+.header p { 
+    /* @apply text-lg text-gray-600; */
+}
+
+.upload-area.dragover { 
+    /* @apply border-blue-500 bg-blue-50 scale-105; */
+}
+
+.file-list { 
+    /* @apply mt-4 text-left; */
+}
+.file-item { 
+    /* @apply bg-gray-100 p-3 rounded-lg flex justify-between items-center mb-2; */
+}
+.file-name { 
+    /* @apply font-medium text-gray-700; */
+}
+
+.loading { 
+    /* @apply text-center p-12; */
+    /* Note: 'hidden' class is toggled by JS */
+}
+.spinner { 
+    /* @apply animate-spin rounded-full h-12 w-12 border-b-2 border-blue-600 mx-auto mb-4; */
+}
+
+.results-section { 
+    /* Note: 'hidden' class is toggled by JS */
+}
+
+.stats-grid { 
+    /* @apply grid grid-cols-2 md:grid-cols-4 gap-4 mb-8; */
+}
+.stat-card { 
+    /* @apply bg-white p-4 rounded-lg shadow text-center; */
+}
+.stat-card h3 { 
+    /* @apply text-2xl font-bold text-blue-600; */
+}
+
+.toggle-section { 
+    /* @apply bg-white p-4 rounded-lg shadow mb-8 text-center; */
+}
+
+.section-toggle.active { 
+    /* @apply bg-blue-600 text-white; */
+}
+.section-toggle.inactive { 
+    /* @apply bg-gray-200 text-gray-700 hover:bg-gray-300; */
+}
+
+.plot-container { 
+    /* @apply bg-white p-4 rounded-lg shadow mb-6; */
+}
+.plot-title { 
+    /* @apply text-xl font-bold text-gray-800 mb-4 text-center; */
+}
+
